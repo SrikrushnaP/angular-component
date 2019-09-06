@@ -1,3 +1,7 @@
-<p>
-  home works!
-</p>
+<h3>This text is from component: Its an example of one way databinding</h3>
+Hello <strong>{{name}}</strong>
+
+<hr>
+<h3>This text is from html: It's an example of two way databinding</h3>
+<input type="text" [(ngModel)]="myInputName"><br>
+Hello <strong>{{myInputName}}</strong>
